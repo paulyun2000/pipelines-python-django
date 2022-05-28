@@ -2,11 +2,10 @@
 # Test a Django project on multiple versions of Python.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
-trigger:
-- main
+
 pool:
 #  vmImage: 'Ubuntu 16.04'
-   name: local
+  name: default
 
 steps:
 - task: UsePythonVersion@0

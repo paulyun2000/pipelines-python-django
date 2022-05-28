@@ -3,7 +3,8 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
 pool:
-  vmImage: 'Ubuntu 16.04'
+#  vmImage: 'Ubuntu 16.04'
+   name: local
 
 steps:
 - task: UsePythonVersion@0
